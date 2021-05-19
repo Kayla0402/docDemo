@@ -1,0 +1,31 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+form-item {
+  display: block;
+}
+label {
+  display: block;
+}
+input {
+  height: 30px;
+  width: 300px;
+  line-height: 30px;
+  border: 1px #ddd solid;
+  border-radius: 5px;
+  display: block;
+  margin: 10px 0;
+}
+
+table {
+  border: unset;
+}
+
+.btn {
+  border: unset;
+  width: 80px;
+  height: 39px;
+  margin: 20px 0;
+  background: var(--ifm-color-primary);
+  color: #fff;
+  border-radius: 5px;
+}

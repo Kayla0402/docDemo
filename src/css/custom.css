@@ -23,3 +23,35 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.main-wrapper {
+  background: #fff!important;
+  
+}
+
+.docs-wrapper {
+  background: unset!important;
+}
+
+.navbar {
+  background: #fff!important;
+  color: rgb(28,30,33)!important;
+}
+
+.navbar__link {
+  color: rgb(28,30,33)!important;
+}
+
+.navbar__link:hover, .navbar__link--active {
+  color: var(--ifm-menu-color-active)!important;
+}
+
+.navbar__items--right {
+  position: relative!important;
+}
+.react-toggle {
+  position: absolute!important;
+  right: 30px!important;
+  top: 70px!important;
+  z-index: 2!important;
+}

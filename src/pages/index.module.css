@@ -12,6 +12,10 @@
   overflow: hidden;
 }
 
+.banner {
+  width: 100%!important;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
@@ -22,4 +26,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.main-wrapper {
+  /* background: cornsilk!important; */
+}
+
+.headerCls {
+  position: relative!important;
+  z-index: 222!important;
+}
+
+.contentBox {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+}
+
+.navbar__items--right {
+  position: relative!important;
+}
+.react-toggle {
+  position: absolute!important;
+  right: 30px!important;
+  top: 70px!important;
 }

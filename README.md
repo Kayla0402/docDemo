@@ -45,3 +45,5 @@ docs文件夹下新建一级菜单文件夹，在该一级菜单文件夹下创�
 sidebar_position: 1
 ---
 ```
+
+但是，用户可以在前面的内容中定义id的最后一部分。例如，if guide/hello。Md的内容定义如下，其最终id为guide/part1

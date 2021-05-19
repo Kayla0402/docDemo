@@ -1,0 +1,52 @@
+diff --git a/node_modules/@docusaurus/theme-live-codeblock/src/theme/ReactLiveScope/index.js b/node_modules/@docusaurus/theme-live-codeblock/src/theme/ReactLiveScope/index.js
+index f971d6a..05add2a 100644
+--- a/node_modules/@docusaurus/theme-live-codeblock/src/theme/ReactLiveScope/index.js
++++ b/node_modules/@docusaurus/theme-live-codeblock/src/theme/ReactLiveScope/index.js
+@@ -1,16 +1,40 @@
+-/**
+- * Copyright (c) Facebook, Inc. and its affiliates.
+- *
+- * This source code is licensed under the MIT license found in the
+- * LICENSE file in the root directory of this source tree.
+- */
++// /**
++//  * Copyright (c) Facebook, Inc. and its affiliates.
++//  *
++//  * This source code is licensed under the MIT license found in the
++//  * LICENSE file in the root directory of this source tree.
++//  */
+ 
++// import React from 'react';
++
++// // Add react-live imports you need here
++// const ReactLiveScope = {
++//   React,
++//   ...React,
++// };
++
++// export default ReactLiveScope;
+ import React from 'react';
+ 
++const ButtonExample = (props) => (
++  <button
++    {...props}
++    style={{
++      backgroundColor: 'white',
++      border: 'solid red',
++      borderRadius: 20,
++      padding: 10,
++      cursor: 'pointer',
++      ...props.style,
++    }}
++  />
++);
++
+ // Add react-live imports you need here
+ const ReactLiveScope = {
+   React,
+   ...React,
++  ButtonExample,
+ };
+ 
+ export default ReactLiveScope;
+\ No newline at end of file

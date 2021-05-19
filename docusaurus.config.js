@@ -34,10 +34,10 @@ module.exports = {
         //   label: 'exam',
         //   position: 'left'
         // },
-        // {
-        //   label: 'API',
-        //   href: 'https://www.baidu.com/',
-        // },
+        {
+          label: 'API',
+          href: 'https://www.baidu.com/',
+        },
         // {
         //   docId: 'intro2',
         //   position: 'left',

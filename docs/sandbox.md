@@ -1,6 +1,6 @@
----
+<!-- ---
 sidebar_position: 3
----
+--- -->
 
 import SandBox from '../src/components/SandBox';
 

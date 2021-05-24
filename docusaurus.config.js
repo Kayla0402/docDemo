@@ -24,50 +24,20 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'document/doc',
+          docId: 'sandbox',
           position: 'left',
-          label: '文档',
+          label: 'Docs',
         },
-        // {
-        //   to: 'exam/',
-        //   activeBasePath: 'hola',
-        //   label: 'exam',
-        //   position: 'left'
-        // },
         {
+          type: 'doc',
+          docId: 'Test/test1',
+          position: 'left',
           label: 'API',
-          href: 'https://www.baidu.com/',
         },
-        // {
-        //   docId: 'intro2',
-        //   position: 'left',
-        //   label: 'API',
-        // },
-        // {type: 'doc',
-        // docId: '/Test/test1',
-        // // to: '/Test', 
-        // label: 'Test', position: 'left'},
-        // {
-        //   type: 'exam',
-        //   docId: 'hello', 
-        //   // to: 'hola',
-        //   label: 'exam',
-        //   position: 'left'
-        // },
-        // {
-        //   docId: 'intro4',
-        //   position: 'left',
-        //   label: '案例展示中心',
-        // },
         {
-          // docId: 'intro5',
           position: 'right',
           label: '个人中心',
           href: 'https://github.com/',
-        },
-        {
-          type: 'search',
-          position: 'right',
         }
       ]
     },
@@ -156,6 +126,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
